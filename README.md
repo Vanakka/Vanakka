@@ -1,6 +1,6 @@
 # VANAKKA
 
-> Support Technician by day. Systems Builder & Game Developer by night.
+> Driver by day. Techno Nerd & Coffee Addict by night.
 
 ---
 
