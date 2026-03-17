@@ -1,16 +1,41 @@
-## Hi there 👋
+# VANAKKA
 
-<!--
-**Vanakka/Vanakka** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+> Support Technician by day. Systems Builder & Game Developer by night.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 Currently Building
+
+- 🎮 **Tycoon Game** (Unreal Engine 5.7)
+- 🛠️ **Game Modding Tools** (HOI4, Stellaris, Software Inc.)
+- 🌸 **Locally Hosted Anime/Manga Tracker** (Desktop + WebExt)
+
+## 📁 Featured Projects
+
+### **Homelab Infrastructure**
+> Proxmox cluster running Debian VMs and AMP game servers.
+
+### **Modding Utilities**
+> Custom scripts for streamlining grand strategy modding creation.
+
+### **Anime Tracker UI**
+> Desktop app syncing with a custom web extension.
+
+## 💻 Homelab Stack
+
+| Technology | Role / Use Case |
+| :--- | :--- |
+| **Proxmox VE** | Hypervisor / Cluster Management |
+| **Debian** | Core VM Operating Systems |
+| **AMP (CubeCoders)** | Dedicated Game Server Hosting |
+| **Nginx** | Reverse Proxy / Web Server |
+| **Cloudflare Tunnels** | Secure External Access |
+
+## 🔗 Connect
+
+[<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />](https://github.com/Vanakka)
+[<img src="https://img.shields.io/badge/X-1DA1F2?style=for-the-badge&logo=x&logoColor=white" alt="X Account" />](https://x.com/Vanakka)
+[<img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Server" />](https://discord.gg/WnnRJdN2Dg)
+[<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />](mailto:Dev@Vanakka.com)
+
+---
