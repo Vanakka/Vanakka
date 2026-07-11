@@ -34,6 +34,54 @@ root@vanakka:~$ _
 | 🔵 | **lorekeeper 40k** | `shipped` | Gemma 4 E4B fine-tune that narrates as a weary 40K witness — QLoRA, 500 hand-written examples, TTS-clean GGUF builds |
 | ⭐ | **starmap foundry** | `ongoing` | Local 3D galaxy editor — Tauri 2 + Babylon.js 9 + Rust Keplerian math, binary/trinary systems, Holman-Wiegert stability |
 
+<details>
+<summary>🔴 <b>// proxmox homelab</b> — expand details</summary>
+<br/>
+
+A custom-built Proxmox VE server on a ZFS pool (scrub-clean, restore-tested) running Debian containers for AMP-managed game servers, a self-hosted media stack, and a Discord bot. Ingress is Cloudflare Zero Trust tunnels only — zero open ports, everything reachable and nothing exposed.
+
+</details>
+
+<details>
+<summary>🟠 <b>// anime/manga tracker</b> — expand details</summary>
+<br/>
+
+A local-first Electron library paired with a Chrome extension that detects whitelisted watch/read pages and posts progress to a localhost server after a pairing-code handshake. Metadata flows in from AniList, Jikan, and MangaUpdates through a shared rate-limited queue, while user data stays in SQLite with validated backup/rollback-safe restore — hardened IPC, sandboxed renderer, and a 209-test suite around title normalization and sequel resolution.
+
+</details>
+
+<details>
+<summary>🟢 <b>// game modding tools</b> — expand details</summary>
+<br/>
+
+Custom scripts and creation tools for Hearts of Iron IV, Stellaris, and Software Inc that turn repetitive mod authoring into batch generation. Built to make grand-strategy content pipelines fast enough that ideas actually ship.
+
+</details>
+
+<details>
+<summary>🟣 <b>// budget secure</b> — expand details</summary>
+<br/>
+
+An offline Flutter finance app for Windows and Android: SQLCipher database with AES-256-GCM and Argon2, biometric unlock, and zero cloud, analytics, or third-party services. Covers dashboard dials, bill tracking, a pay-period income engine (overtime, tips, job rules), savings goals, and month-over-month insights — your money's story never leaves your device.
+
+</details>
+
+<details>
+<summary>🔵 <b>// lorekeeper 40k</b> — expand details</summary>
+<br/>
+
+A Gemma 4 E4B fine-tune (QLoRA 4-bit, rank 16) trained on 500 hand-written conversation examples to speak as an ancient witness of the Horus Heresy — weary, dry, and grimly philosophical. Every sample is shaped for spoken delivery (no markdown, written-out numbers), shipping as Q8_0 and Q4_K_M GGUF builds for Ollama and Open WebUI, including 8GB-VRAM machines.
+
+</details>
+
+<details>
+<summary>⭐ <b>// starmap foundry</b> — expand details</summary>
+<br/>
+
+A local-first 3D galaxy editor: Babylon.js 9 rendering with orbital math in a Rust crate over Tauri IPC (and a 1:1 JavaScript mirror for the browser). Real Keplerian mechanics with binary/trinary barycentric motion, Holman-Wiegert stability validation that rejects impossible systems at construction, and a bundled atlas of 133 real stars within 50 light-years — Sirius and Alpha Centauri orbits included.
+
+</details>
+
 > 🖥️ All of it lives at **[vanakka.com](https://vanakka.com)** — diagonal tabs, a live packet mesh, and a terminal that occasionally crashes the whole site on purpose. Try `vanakka.com/#crash`.
 
 ## 📊 // telemetry
