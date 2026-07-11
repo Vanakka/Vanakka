@@ -1,0 +1,65 @@
+<svg width="900" height="230" viewBox="0 0 900 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="VANAKKA — SYS_STATUS: NOMINAL">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E8272C"/><stop offset="1" stop-color="#a31b1f"/></linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F5A623"/><stop offset="1" stop-color="#d48a0d"/></linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#76C41C"/><stop offset="1" stop-color="#5d9f15"/></linearGradient>
+    <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#5B21B6"/></linearGradient>
+    <linearGradient id="g5" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3344DD"/><stop offset="1" stop-color="#222ea3"/></linearGradient>
+  </defs>
+
+  <rect width="900" height="230" fill="#0a0a0a"/>
+
+  <!-- stars -->
+  <g fill="#cdddff">
+    <circle cx="60" cy="38" r="1.4"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="180" cy="72" r="1.1"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="4.3s" repeatCount="indefinite"/></circle>
+    <circle cx="320" cy="30" r="1.3"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="705" cy="26" r="1.2"><animate attributeName="opacity" values="0.9;0.3;0.9" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="852" cy="58" r="1.4"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="770" cy="102" r="1.0"><animate attributeName="opacity" values="0.7;0.2;0.7" dur="4.7s" repeatCount="indefinite"/></circle>
+    <circle cx="545" cy="40" r="1.1"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- node links -->
+  <g stroke="#96aad2" stroke-opacity="0.16" stroke-width="1">
+    <line x1="60" y1="38" x2="180" y2="72"/>
+    <line x1="180" y1="72" x2="320" y2="30"/>
+    <line x1="320" y1="30" x2="545" y2="40"/>
+    <line x1="545" y1="40" x2="705" y2="26"/>
+    <line x1="705" y1="26" x2="852" y2="58"/>
+    <line x1="852" y1="58" x2="770" y2="102"/>
+  </g>
+
+  <!-- packets traveling the links -->
+  <circle r="2.4" fill="#a0ffd7">
+    <animateMotion dur="5.5s" repeatCount="indefinite" path="M60,38 L180,72 L320,30 L545,40"/>
+  </circle>
+  <circle r="2.4" fill="#ffe1a0">
+    <animateMotion dur="6.5s" repeatCount="indefinite" begin="1.2s" path="M852,58 L705,26 L545,40 L320,30"/>
+  </circle>
+  <circle r="2.2" fill="#afcdff">
+    <animateMotion dur="4.8s" repeatCount="indefinite" begin="2.6s" path="M770,102 L852,58 L705,26"/>
+  </circle>
+
+  <!-- diagonal tab wedges (site geometry, miniaturized) -->
+  <g>
+    <path d="M 588 230 L 668 128 Q 671 124 676 124 L 900 124 L 900 230 Z" fill="url(#g5)"/>
+    <path d="M 488 230 L 568 126 Q 571 122 576 122 L 828 122 L 744 230 Z" fill="url(#g4)"/>
+    <path d="M 388 230 L 468 124 Q 471 120 476 120 L 728 120 L 644 230 Z" fill="url(#g3)"/>
+    <path d="M 288 230 L 368 122 Q 371 118 376 118 L 628 118 L 544 230 Z" fill="url(#g2)"/>
+    <path d="M 0 230 L 0 116 L 528 116 L 440 230 Z" fill="url(#g1)"/>
+  </g>
+
+  <!-- wedge labels -->
+  <g font-family="'Courier New',Courier,monospace" font-size="11" font-weight="bold" fill="#ffffff" fill-opacity="0.85">
+    <text x="30" y="142">01 — HOME</text>
+    <text x="380" y="136" transform="rotate(-52 380 136)" opacity="0"> </text>
+  </g>
+
+  <!-- title -->
+  <g font-family="'Courier New',Courier,monospace">
+    <text x="30" y="52" font-size="44" font-weight="bold" fill="#ffffff" letter-spacing="6">VANAKKA</text>
+    <text x="30" y="82" font-size="15" fill="#76C41C">&gt; SYS_STATUS: NOMINAL<tspan fill="#ffffff"><animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/>_</tspan></text>
+    <text x="30" y="103" font-size="13" fill="#888888">homelabs · ml agents · game mods · software that respects your data</text>
+  </g>
+</svg>
