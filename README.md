@@ -11,17 +11,11 @@
 
 </div>
 
-```console
-root@vanakka:~$ ./boot.sh
-> BIOS v2.4.1 initialized
-> Kernel modules loaded            [OK]
-> Mounting /dev/vanakka...         [OK]
-> tegs.lab tunnel: established
-> Network interfaces: UP
-> Services: 47/47 running
-> SYS_STATUS: NOMINAL
-root@vanakka:~$ _
-```
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Vanakka/Vanakka/output/lorekeeper.svg" alt="The Lorekeeper's thought for the day — rotates daily" />
+
+</div>
 
 ## 🚀 // projekts.db · indexed
 
@@ -43,12 +37,6 @@ root@vanakka:~$ _
 <a href="https://vanakka.com"><img src="https://img.shields.io/website?url=https%3A%2F%2Fvanakka.com&style=for-the-badge&label=vanakka.com&up_message=NOMINAL&up_color=76C41C&down_message=OFFLINE&down_color=E8272C" alt="vanakka.com status" /></a>
 <a href="https://toc.vanakka.com"><img src="https://img.shields.io/website?url=https%3A%2F%2Ftoc.vanakka.com&style=for-the-badge&label=toc.vanakka.com&up_message=NOMINAL&up_color=76C41C&down_message=OFFLINE&down_color=E8272C" alt="toc.vanakka.com status" /></a>
 <img src="https://komarev.com/ghpvc/?username=Vanakka&style=for-the-badge&color=8B5CF6&label=PROFILE+SCANS" alt="profile views" />
-
-</div>
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Vanakka/Vanakka/output/lorekeeper.svg" alt="The Lorekeeper's thought for the day — rotates daily" />
 
 </div>
 
