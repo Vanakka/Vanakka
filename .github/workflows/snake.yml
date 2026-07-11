@@ -1,4 +1,4 @@
-name: generate contribution snake
+name: generate profile assets
 
 on:
   schedule:
@@ -23,6 +23,39 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#76C41C
+
+      - name: generate lorekeeper thought for the day
+        shell: python
+        run: |
+          import datetime, html, pathlib
+          quotes = [
+              "An open port is an open wound.",
+              "Backups untested are prayers unanswered.",
+              "The machine-spirit favors those who read the logs.",
+              "Ten thousand uptimes mean nothing to entropy. Restart with dignity.",
+              "Trust no cloud you cannot power off yourself.",
+              "A silent cron job is not a finished one.",
+              "The wise sysadmin fears the disk that has never failed.",
+              "Knowledge unwritten dies with its session.",
+              "Every dependency is a debt collected at the worst hour.",
+              "Scrub your pools as you scrub your soul: regularly, and expecting errors.",
+              "The password reused is a gate already breached.",
+              "Latency is honest. Marketing is not.",
+              "He who owns the data owes nothing to the subscription.",
+              "Even the strongest tunnel is judged by its weakest token.",
+          ]
+          day = datetime.date.today().timetuple().tm_yday
+          quote = html.escape(quotes[day % len(quotes)])
+          svg = f'''<svg width="820" height="112" viewBox="0 0 820 112" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Thought for the day">
+            <rect width="820" height="112" rx="8" fill="#0a0a0a" stroke="#1f1f1f"/>
+            <text x="30" y="38" font-family="'Courier New',Courier,monospace" font-size="14" font-weight="bold" fill="#3344DD" letter-spacing="2">++ THOUGHT FOR THE DAY ++</text>
+            <text x="30" y="68" font-family="'Courier New',Courier,monospace" font-size="16" fill="#c9c9c9">&gt; {quote}</text>
+            <text x="790" y="93" text-anchor="end" font-family="'Courier New',Courier,monospace" font-size="12" fill="#666666">— the lorekeeper · gemma-4-e4b fine-tune</text>
+          </svg>'''
+          out = pathlib.Path("dist")
+          out.mkdir(exist_ok=True)
+          (out / "lorekeeper.svg").write_text(svg, encoding="utf-8")
+          print("lorekeeper.svg written:", quote)
 
       - name: push to output branch
         uses: crazy-max/ghaction-github-pages@v4

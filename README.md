@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=26&duration=3200&pause=900&color=76C41C&center=true&vCenter=true&width=620&lines=root%40vanakka%3A~%24+whoami;Driver+by+day.+Techno+nerd+by+night.;Homelabs+%C2%B7+ML+agents+%C2%B7+game+mods;Software+that+respects+your+data." alt="root@vanakka:~$ whoami — Driver by day. Techno nerd by night." />
+<img src="assets/banner.svg" alt="VANAKKA — SYS_STATUS: NOMINAL · homelabs, ML agents, game mods" width="100%" />
 
 <br/>
 
@@ -43,6 +43,12 @@ root@vanakka:~$ _
 <a href="https://vanakka.com"><img src="https://img.shields.io/website?url=https%3A%2F%2Fvanakka.com&style=for-the-badge&label=vanakka.com&up_message=NOMINAL&up_color=76C41C&down_message=OFFLINE&down_color=E8272C" alt="vanakka.com status" /></a>
 <a href="https://toc.vanakka.com"><img src="https://img.shields.io/website?url=https%3A%2F%2Ftoc.vanakka.com&style=for-the-badge&label=toc.vanakka.com&up_message=NOMINAL&up_color=76C41C&down_message=OFFLINE&down_color=E8272C" alt="toc.vanakka.com status" /></a>
 <img src="https://komarev.com/ghpvc/?username=Vanakka&style=for-the-badge&color=8B5CF6&label=PROFILE+SCANS" alt="profile views" />
+
+</div>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Vanakka/Vanakka/output/lorekeeper.svg" alt="The Lorekeeper's thought for the day — rotates daily" />
 
 </div>
 
