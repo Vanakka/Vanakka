@@ -40,18 +40,25 @@ root@vanakka:~$ _
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Vanakka&show_icons=true&count_private=true&hide_border=true&bg_color=0a0a0a&title_color=8B5CF6&icon_color=76C41C&text_color=c9c9c9&ring_color=E8272C" height="165" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vanakka&layout=compact&count_private=true&hide_border=true&bg_color=0a0a0a&title_color=8B5CF6&text_color=c9c9c9" height="165" alt="Top languages" />
+<a href="https://vanakka.com"><img src="https://img.shields.io/website?url=https%3A%2F%2Fvanakka.com&style=for-the-badge&label=vanakka.com&up_message=NOMINAL&up_color=76C41C&down_message=OFFLINE&down_color=E8272C" alt="vanakka.com status" /></a>
+<a href="https://toc.vanakka.com"><img src="https://img.shields.io/website?url=https%3A%2F%2Ftoc.vanakka.com&style=for-the-badge&label=toc.vanakka.com&up_message=NOMINAL&up_color=76C41C&down_message=OFFLINE&down_color=E8272C" alt="toc.vanakka.com status" /></a>
+<img src="https://komarev.com/ghpvc/?username=Vanakka&style=for-the-badge&color=8B5CF6&label=PROFILE+SCANS" alt="profile views" />
 
-<br/><br/>
+</div>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Vanakka&hide_border=true&background=0a0a0a&ring=76C41C&fire=F5A623&currStreakLabel=8B5CF6&sideLabels=c9c9c9&currStreakNum=ffffff&sideNums=ffffff&dates=666666" alt="Contribution streak" />
+```console
+root@vanakka:~$ lab-monitor --status
+● zpool nvme            ONLINE · scrub repaired 0B · 0 errors
+● services              47/47 running
+● cloudflare tunnels    2 active · 0 open ports
+● projekts indexed      6 (2 shipped · 3 active dev · 1 ongoing)
+● test suites           209 passing (tracker) · rust + playwright (starmap)
+● local ml              gemma-4-e4b fine-tune · q8_0 + q4_k_m gguf
+● cloud dependencies    0
+root@vanakka:~$ _
+```
 
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Vanakka&bg_color=0a0a0a&color=c9c9c9&line=3344DD&point=E8272C&area=true&area_color=1a1f4d&hide_border=true&custom_title=commit%20telemetry%20%C2%B7%20last%2030%20days" alt="Activity graph" />
-
-<br/><br/>
+<div align="center">
 
 <img src="https://raw.githubusercontent.com/Vanakka/Vanakka/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" />
 
